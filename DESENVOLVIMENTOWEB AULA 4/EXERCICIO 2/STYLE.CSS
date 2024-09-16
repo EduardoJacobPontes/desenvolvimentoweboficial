@@ -1,0 +1,47 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    margin: 0;
+  }
+  
+  h1 {
+    color: hotpink; /* Altere a cor do cabeçalho h1 para rosa */
+    font-size: 2em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border-bottom: 10px dotted purple; /* Adicione uma borda roxa */
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-style: italic; /* Torne o texto do cabeçalho h2 em itálico */
+  }
+  
+  .job-title {
+    color: #999999;
+    font-weight: bold;
+  }
+  
+  a:link,
+  a:visited {
+    color: #fb6542;
+  }
+  
+  a:hover {
+    color: green; /* Altere a cor dos links para verde ao passar o mouse */
+    text-decoration: none;
+  }
+  
+  ul {
+    background-color: #eeeeee; /* Defina a cor de fundo do ul */
+    border: 5px solid purple; /* Adicione uma borda sólida de 5px roxa */
+    padding: 10px; /* Adicione padding para empurrar o conteúdo para longe da borda */
+    list-style-type: none; /* Remove os marcadores da lista */
+    margin: 0; /* Remove a margem da lista */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Adiciona espaçamento entre os itens da lista */
+  }
+  

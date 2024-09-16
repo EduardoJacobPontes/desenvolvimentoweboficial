@@ -1,0 +1,37 @@
+body {                            
+    background-color: rgb(100, 250, 13);
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  color: aqua;
+}
+
+a {
+    color: blueviolet;
+    block-size: auto;
+   }
+
+
+   div.relative {
+    width: 50%; /* Tamanho relativo */
+    background-color: #f0f0f0;
+}
+
+
+div.fixed {
+    width: 300px; /* Tamanho fixo */
+    background-color: #ddd;
+}
+
+
+
+
+span.highlight {
+    color: red; /* Texto em vermelho */
+    font-weight: bold; /* Negrito */
+    background-color: rgb(24, 188, 243); /* Fundo azul claro */
+}
