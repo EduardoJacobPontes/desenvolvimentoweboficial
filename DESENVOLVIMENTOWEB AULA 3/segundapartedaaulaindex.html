@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página do botafogo</title>
+</head>
+<body>
+    <h1>Botafogo de futebol e regatas (h1)</h1>
+
+    <h2>o mias tradicional (h2)</h2>
+    <p>Este é um parágrafo com um <span>texto em destaque</span> usando a tag <code>&lt;span&gt;</code>.</p>
+
+    <h3>clube que mais cedeu jogdores para seleçao (h3)</h3>
+    <p>Outro parágrafo de exemplo.</p>
+
+    <h4>bicampeao brasileiro (h4)</h4>
+
+    <h5>melhor time do brasil atualmente (h5)</h5>
+    
+    <h6>john textor (h6)</h6>
+
+    <!-- Adicionando uma Imagem -->
+    <div>
+        <h2>put fire</h2>
+        <img src= https://boracolorir.com.br/wp-content/uploads/2023/01/escudo-do-botafogo-capa-1.jpg alt="escudo do botafogo" width="600" height="400">
+        <p>Acima está uma imagem exemplo.</p>
+    </div>
+
+    <!-- Formulário GET -->
+    <section id="form-get">
+        <h2>Formulário com Método GET</h2>
+        <form action="https://httpbin.org/get" method="get">
+            <label for="name-get">Nome:</label>
+            <input type="text" id="name-get" name="name" required>
+            <br><br>
+            <label for="email-get">Email:</label>
+            <input type="email" id="email-get" name="email" required>
+            <br><br>
+            <input type="submit" value="Enviar GET">
+        </form>
+    </section>
+    
+    <!-- POST -->
+    <section id="form-post">
+        <h2>Formulário com Método POST</h2>
+        <form action="https://httpbin.org/post" method="post">
+            <label for="name-post">Nome:</label>
+            <input type="text" id="name-post" name="name" required>
+            <br><br>
+            <label for="email-post">Email:</label>
+            <input type="email" id="email-post" name="email" required>
+            <br><br>
+            <input type="submit" value="Enviar POST">
+        </form>
+    </section>
+     
+
+    <!-- Adicionando Áudio -->
+    <section id="audio">
+        <h2>Áudio Exemplo</h2>
+        <audio controls>
+            <source src= "./hinodobotafogo.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+        <p>áudio exemplo.</p>
+    </section>
+
+    <!-- Adicionando Vídeo -->
+    <section id="video">
+        <h2>Vídeo Exemplo</h2>
+        <video width="600" controls>
+            <source src="./videocachorro.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <p>Acima está um vídeo exemplo.</p>
+    </section>
+
+
+    <!-- Links Internos e Externos -->
+    <nav>
+        <ul>
+            <li><a href="#form-get">Ir para o Formulário GET</a></li>
+            <li><a href="#form-post">Ir para o Formulário POST</a></li>
+            <li><a href="outra-pagina.html">Ir para Outra Página</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <p>Parágrafo dentro de uma <code>&lt;div&gt;</code>.</p>
+        
+        <ul>
+            <li>Item 1 da minha lista não ordenada</li>
+            <li>Item 2 da minha lista não ordenada</li>
+            <li>Item 3 da minha lista não ordenada</li>
+        </ul>
+
+        <ol>
+            <li>Item 1 da lista ordenada</li>
+            <li>Item 2 da lista ordenada</li>
+            <li>Item 3 da lista ordenada</li>
+        </ol>
+    </div>
+
+    <!-- Link Interno -->
+    <p><a href="#form-get">Voltar para o Formulário GET</a></p>
+
+    <!-- Link para Outra Página -->
+    <p><a href="https://www.botafogo.com.br/">Ir para Outra Página</a></p>
+</body>
+</html>
