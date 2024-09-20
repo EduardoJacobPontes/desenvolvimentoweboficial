@@ -2,8 +2,12 @@
 O Git, permite que você registre todas as mudanças feitas em um projeto. Isso facilita a recuperação de versões anteriores e o entendimento da evolução do projeto. Se algo der errado, você pode facilmente reverter para uma versão anterior.
 Com o versionamento, várias pessoas podem trabalhar no mesmo projeto simultaneamente sem conflitos.
 
+
+
 # diferença entre git e github
 Git é a ferramenta que você usa para gerenciar versões de arquivos, enquanto GitHub é um serviço online que utiliza Git para facilitar o trabalho em equipe e o compartilhamento de projetos.
+
+
 
 # quais sao as 3 principais linguagens ultilizadas 
 css = loyaout e animaçao 
@@ -11,10 +15,12 @@ html linguagem de marcaçao  conteudo e estrutura de um site marcaçao semantica
 javascript = intertividade interaçao usuario com a pagina 
 
 
+
 # Qual é a diferença entre os conceitos de tag, elemento e atributo, no contexto do HTML?
 Tag: Indica o início e o fim de um elemento.
 Elemento: É a combinação da tag de abertura, conteúdo e tag de fechamento.
 Atributo: Propriedade adicional que fornece informações sobre um elemento.
+
 
 
 # Desenvolva um documento HTML mínimo que contenha um parágrafo com a frase “Estou por  aqui”, tenha o título “minha página” e use a codificação de caracteres utf-8.
@@ -31,6 +37,7 @@ Atributo: Propriedade adicional que fornece informações sobre um elemento.
 
 
 # O que é uma “pilha de protocolos”, no contexto da internet?
+
 É uma organizaçao logica dos protocolos de abstraçao de  internet na qual cada camada tem uma funçao ESPECIFICA e PADRONIZADA facilitando a comunicação e a interoperabilidade entre sistemas diferentes.
 
 
@@ -43,20 +50,26 @@ DP - nao tem garantia de entrega geralmente é mais rapido e é usado em aplica�
 
 # Quais as principais características da arquitetura cliente-servidor e como ela se diferencia de aplicações peer-to-peer?
 
- A arquitetura cliente-servidor tem como suas caracteristicas  a divisão de Funções: a aplicaçao peer to peer os clientes se comunicam e a aplicaçao esta distribuida entre eles 
+A arquitetura cliente-servidor tem como suas caracteristicas  a divisão de Funções: a aplicaçao peer to peer os clientes se comunicam e a aplicaçao esta distribuida entre eles 
+
 
 
 # O que é um processo, no contexto do desenvolvimento de aplicações de internet, e como eles são identificados para efeitos de comunicação?
-um processo é uma instância de um programa em execução, e é identificado através de um endereço IP e uma porta, facilitando a comunicação entre diferentes partes de uma aplicação ou entre aplicações diferentes na internet.
+
+um processo é uma instância de um programa em execução, e é identificado através de um endereço IP e uma porta, 
+facilitando a comunicação entre diferentes partes de uma aplicação ou entre aplicações diferentes na internet.
 
 
 # Explique o que é SSL, no contexto da internet.
+
 É um protocolo de segurança que estabelece uma conexão criptografada entre um servidor web e um navegador. 
+
 
 
 # Em um documento html, quantos são os filhos do nó raiz? Há limite para o número de descendentes do nó raiz? Justifique sua resposta
 2 filhos do nó raiz sempre 
 O número de descendentes do nó raiz pode ser limitado, dependendo do tipo de árvore que estamos considerando.
+
 
 
 # Ao construir documentos html, é recomendado que usemos marcação que forneça significado (semântica) para os componentes do documento. Sendo assim, cite ao menos 5 tipos de elementos de marcação ou organização de conteúdo, além de 5 tipos de elementos de marcação semântica, explicando o significado de todos eles.
@@ -73,18 +86,21 @@ O número de descendentes do nó raiz pode ser limitado, dependendo do tipo de �
 <form>
 
 
+
 # Qual elemento é utilizado para permitir a navegação entre diferentes documentos html?
 elemento <a> que cria os hyperlinks 
 
-# Enumere ao menos cinco elementos utilizados em formulários html explicando sua utilidad
+
+
+
+
+# Enumere ao menos cinco elementos utilizados em formulários html explicando sua utilidades
 
 <input>:
 Utilidade: Cria campos para entrada de dados. Pode ter diferentes tipos para capturar diversas informações.
 
-
 <textarea>:
 Utilidade: Permite a entrada de texto em múltiplas linhas. Ideal para comentários ou descrições longas, onde o usuário precisa de mais espaço.
-
 
 <select>:
 Utilidade: Cria um menu suspenso para seleção de opções. Facilita a escolha entre várias opções sem ocupar muito espaço na interface.
@@ -97,6 +113,9 @@ Utilidade: Fornece uma descrição para um campo de entrada, melhorando a acessi
 a entender o que deve ser preenchido em cada campo
 
 
+
+
+
 # Explique o que são e para que são utilizados os seguintes atributos html:
   a) class - usado para atribuir uma ou mais classes a um elemento HTML. determina conjuto ou conjutos que o elemto vai pertencer
   b) id - fornece um identificador único para um elemento HTML.
@@ -104,6 +123,7 @@ a entender o que deve ser preenchido em cada campo
   d) hidden -  indica que um elemento não deve ser exibido na página.
   e) style - personalizar sua pagina html aplicando estilos css
   f) title - colocar titulo na sua pagina html. 
+
 
 
 
@@ -117,11 +137,16 @@ mesmo quando certos recursos ou tecnologias não estão disponíveis ou são sup
 
 # Diferencie e caracterize os conceitos de regra, seletor e declaração no contexto do CSS.
 
+- Uma regra CSS é a combinação de um seletor e um conjunto de declarações. Ela define como um ou mais elementos HTML devem ser estilizados.
+- Um seletor é a parte da regra CSS que identifica quais elementos HTML serão estilizados.
+- Uma declaração é uma instrução dentro de uma regra CSS que especifica um estilo para um determinado atributo de um elemento.
+
 
 
 
 # Diferencie os conceitos de “seletor de classe” e “seletor de id”, no contexto do CSS, fornecendo exemplos de cada um deles.
 
+Um seletor de classe é usado para aplicar estilos a um grupo de elementos que compartilham a mesma classe, já um seletor de id é usado para aplicar estilos a um elemento único, que possui um ID específico.
 
 
 
@@ -132,4 +157,31 @@ Border: linha que envolve o padding e o conteúdo.
 Margin: espaço externo entre a borda de um elemento e outros elementos.
 
 
+
+
 # Explique e dê exemplos funcionais de utilização das propriedades de posicionamento: static, relative, absolute e fixed.
+
+- static = é o valor padrão de posicionamento    ex = <div style="background: lightblue; height: 100px;">
+    Estou em posição estática.
+</div>
+
+- relative = é posicionado em relação à sua posição original no fluxo do documento   ex = <div style="position: relative; top: 20px; left: 30px; background: lightgreen; height: 100px;">
+    Estou em posição relativa.
+</div>
+
+
+- absolute =  é posicionado em relação ao seu ancestral mais próximo que tenha um posicionamento diferente de static   ex = <div style="position: relative; height: 200px; background: lightcoral;">
+    Eu sou o contêiner.
+    <div style="position: absolute; top: 10px; right: 10px; background: yellow;">
+        Estou em posição absoluta.
+    </div>
+</div>
+
+
+- fixed = permanece fixo na mesma posição mesmo quando a página é rolada    ex =  <div style="position: fixed; bottom: 20px; right: 20px; background: pink; padding: 10px;">
+    Estou em posição fixa.
+</div>
+
+
+
+
